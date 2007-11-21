@@ -11,7 +11,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 Requires: curl tcl rsync coreutils make
 BuildRequires: curl-devel tcl-devel sqlite-devel gcc-objc gnustep-base gnustep-base-devel
-BuildRequires: mtree fakeroot gnustep-make
+BuildRequires: mtree fakeroot gnustep-make libx11-devel
 BuildRequires: openssl-devel
 
 %description
