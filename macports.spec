@@ -7,7 +7,6 @@ Group: System/Base
 URL: http://www.macports.org
 Source: http://svn.macosforge.org/repository/macports/distfiles/MacPorts/MacPorts-%{version}.tar.bz2
 Prefix: /opt/local
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 Requires: curl tcl rsync coreutils make
 BuildRequires: curl-devel tcl-devel sqlite3-devel gcc-objc gnustep-base gnustep-base-devel
