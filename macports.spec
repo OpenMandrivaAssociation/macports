@@ -4,7 +4,7 @@ Version: 1.6.0RC2
 Release: %mkrel 4
 License: BSD
 Group: System/Base
-URL: http://www.macports.org
+URL: https://www.macports.org
 Source: http://svn.macosforge.org/repository/macports/distfiles/MacPorts/MacPorts-%{version}.tar.bz2
 Prefix: /opt/local
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
